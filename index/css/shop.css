@@ -1,0 +1,110 @@
+.shop-list{
+    overflow: hidden;
+    padding-bottom: 3rem;
+}
+.shop-list .shop-list-title{
+    text-align: center;
+    font-size: .8rem;
+    margin: 14px 0 .25rem;
+}
+.shop-list .title-line{
+    display: inline-block;
+    border-bottom: 1px solid #494949;
+    height: 0px;
+    width: 1.5rem;
+    margin: .2rem;
+}
+.shop-list .shop-item{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    padding: .75rem 0;
+    margin: 0 .5rem;
+    color: #666;
+    position: relative;
+    cursor: pointer;
+}
+.shop-list .shop-img{
+    width: 6.6rem;
+    height: 4rem;
+    /* border: 1px solid #141414; */
+    display: block;
+}
+.shop-list .shop-info{
+    -webkit-box-flex: 1;
+        -ms-flex: 1;
+            flex: 1;
+    margin-left: .35rem;
+    overflow: hidden;
+}
+.shop-list .brand{
+    position: absolute;
+    left: 1px;
+    top: .8rem;
+    font-size: 12px;
+    padding: 2px;
+    color: #fff;
+}
+.shop-list .brand-brand{
+    background-color: rgb(146, 137, 15);
+}
+.shop-list .brand-new{
+    background-color: rgb(247, 100, 64);
+}
+.shop-list .shop-name{
+    margin-top: .15rem;
+    font-size: .8rem;
+    font-weight: 500;
+    color: #333;
+}
+.shop-list .shop-desc{
+    margin-top: .65rem;
+    font-size: .6rem;
+}
+.shop-list .shop-star{
+    float: left;
+}
+.shop-star .iconify{
+    color: rgb(247, 203, 59);
+}
+.shop-list .shop-sell{
+    float: left;
+    margin-left: .25rem;
+}
+.shop-list .shop-distance{
+    float: right;
+}
+.shop-list .shop-delivery-time{
+    float: right;
+}
+.shop-list .shop-start-delivery{
+    margin-top: .35rem;
+    font-size: .6rem;
+    height: 1rem;
+}
+.shop-list .event-info{
+    color: #898989;
+    margin-top: .35rem;
+    font-size: .6rem;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+}
+.shop-list .event-icon{
+    width: .7rem;
+    height: .7rem;
+}
+.shop-list .event-content{
+    margin: 0 3px 0;
+    height: .7rem;
+    width: 10rem;
+}
+.shop-loading{
+    width: 100%;
+    height: 2rem;
+    font-size: .8rem;
+    line-height: 2rem;
+    text-align: center;
+    background: no-repeat url(../../common/img/loading.gif) center/2rem;
+    margin-bottom: 3rem;
+}
