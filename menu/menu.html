@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale =1, minimum-scale=1, user-scalable = no">
+    <title>菜单</title>
+    <script src="../common/jquery-3.3.1.min.js"></script>
+    <script src="../common/setRem.js"></script>
+    <script src="https://code.iconify.design/2/2.0.3/iconify.min.js"></script>
+    <link rel="stylesheet" href="../common/css/base.css">
+    <link rel="stylesheet" href="../common/css/menuHeader.css">
+    <link rel="stylesheet" href="css/menu.css">
+    <link rel="stylesheet" href="css/shopCart.css">
+</head>
+<body>
+    <!-- menu header & tab bar -->
+    <div class="menu-nav">
+        <div class="back-icon"></div>
+        <div class="menu-title">深圳麦当劳前海二餐厅</div>
+    </div>
+    <div class="menu-tab-bar"></div>
+    <!-- menu content -->
+    <div class="menu-container">
+        <div class="menu-category"></div>
+        <div class="menu-content">
+            <p class="menu-category-name"></p>
+            <div class="menu-list">
+            </div>
+        </div>
+    </div>
+    <!-- shopping cart bar -->
+    <div class="shopping-cart">
+        <div class="cart-content hide">
+            <div class="cart-top">
+                <div class="clear-cart"><span class="iconify" data-icon="bi:trash"></span>&nbsp;清空购物车</div>
+            </div>
+            <div class="cart-item-container"></div>
+        </div>
+        <div class="cart-bottom-bar">
+            <div class="cart-icon">
+                <span class="iconify" data-icon="heroicons-solid:shopping-cart"></span>
+                <div class="product-count hide"></div>
+            </div>
+            <div class="cart-price">
+                <div class="total-price">￥0</div>
+                <div class="delivery-fee">另需配送&nbsp;￥<span class="price">0</span></div>
+            </div>
+            <div class="cart-btn">去结算</div>
+        </div>
+    </div>
+    <div class="mask hide"></div>
+    <script src="../common/menuHeader.js"></script>
+    <script src="js/shopCart.js"></script>
+    <script src="js/menu.js"></script>
+</body>
+</html>
