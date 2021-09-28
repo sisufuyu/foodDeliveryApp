@@ -1,0 +1,114 @@
+.order-list{
+    padding-bottom: 3rem;
+}
+.order-item{
+    width: 100%;
+    border-top: 13px solid #efefef;
+}
+.order-content{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    padding-bottom: .9rem;
+    border-bottom: 1px solid #e0e0e0;
+}
+.order-img{
+    width: 2rem;
+    height: 2rem;
+    margin-top: .4rem;
+    margin-left: 16px;
+    display: block;
+    border-radius: 50%;
+}
+.order-info{
+    -webkit-box-flex: 1;
+        -ms-flex: 1;
+            flex: 1;
+    margin-left: .75rem;
+    font-size: 14px;
+}
+.order-title{
+    height: 2.75rem;
+    padding-top: 2px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    border-bottom: 1px solid #e0e0e0;
+}
+.order-name{
+    font-size: 16px;
+    font-weight: 600;
+    width: 9rem;
+    position: relative;
+}
+.order-title .arrow-right{
+    color: #999;
+    margin-left: .5rem;
+}
+.order-state{
+    margin-left: 1.5rem;
+    font-size: 14px;
+    color: #999;
+}
+.order-detail{
+    font-size: .7rem;
+    color: #666;
+    margin-top: .6rem;
+}
+.product{
+    height: 1rem;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+}
+.product-count{
+    margin-right: .5rem;
+}
+.order-item .more,.order-item .total-info{
+    height: 20px;
+    margin-top: .25rem;
+}
+.order-item .more{
+    float: left;
+}
+.order-item .total-info{
+    float: right;
+    margin-right: .5rem;
+}
+.total-price{
+    font-weight: 700;
+    letter-spacing: .1rem;
+}
+.order-comment{
+    padding: .5rem;
+}
+.order-comment .comment-btn{
+    float: right;
+    width: 5rem;
+    height: 1.6rem;
+    line-height: 1.6rem;
+    color: #6b450a;
+    background-color: #ffd161;
+    font-size: .8rem;
+    margin-right: .5rem;
+    text-align: center;
+    border-radius: .25rem;
+}
+.order-loading{
+    width: 100%;
+    height: 2rem;
+    font-size: .8rem;
+    line-height: 2rem;
+    text-align: center;
+    background: no-repeat url(../../common/img/loading.gif) center/2rem;
+    margin-bottom: 3rem;
+}
